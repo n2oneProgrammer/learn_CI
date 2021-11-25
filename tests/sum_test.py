@@ -4,6 +4,7 @@ from main import sum_func
 
 
 class SumTest(unittest.TestCase):
+
     def test_sum_correct1(self):
         self.assertTrue(sum_func(1, 2), 3)
 
